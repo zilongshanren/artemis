@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88929838-1C3E-4872-A41F-C405A3C5FFF9}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>artemis_tank</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\proj.win32\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\proj.win32\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\include;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\platform\win32;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\external;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\CocosDenshion\include;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\extensions;..\Classes;..;$(ProjectDir)..\..\..\library\Artemis-Cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;websockets.lib;libArtemis.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\include;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\platform\win32;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\external;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\CocosDenshion\include;$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\engine\cocos2d-x-3.0alpha0\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\Ammo.cpp" />
+    <ClCompile Include="..\Classes\AmmoRegenerationSystem.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\ArtemisWorld.cpp" />
+    <ClCompile Include="..\Classes\Bullet.cpp" />
+    <ClCompile Include="..\Classes\CameraSystem.cpp" />
+    <ClCompile Include="..\Classes\Constants.cpp" />
+    <ClCompile Include="..\Classes\Container.cpp" />
+    <ClCompile Include="..\Classes\Crate.cpp" />
+    <ClCompile Include="..\Classes\Dirty.cpp" />
+    <ClCompile Include="..\Classes\DirtySystem.cpp" />
+    <ClCompile Include="..\Classes\EntityFactory.cpp" />
+    <ClCompile Include="..\Classes\Explosion.cpp" />
+    <ClCompile Include="..\Classes\GradientColorUtil.cpp" />
+    <ClCompile Include="..\Classes\HealthRenderSystem.cpp" />
+    <ClCompile Include="..\Classes\HudRenderSystem.cpp" />
+    <ClCompile Include="..\Classes\DPadLayer.cpp" />
+    <ClCompile Include="..\Classes\MammothTank.cpp" />
+    <ClCompile Include="..\Classes\JoyStick.cpp" />
+    <ClCompile Include="..\Classes\MiniMap.cpp" />
+    <ClCompile Include="..\Classes\PadButton.cpp" />
+    <ClCompile Include="..\Classes\PadButtonGroup.cpp" />
+    <ClCompile Include="..\Classes\PhysicsSystem.cpp" />
+    <ClCompile Include="..\Classes\PlayerEntitySystem.cpp" />
+    <ClCompile Include="..\Classes\PlayerTankMovementSystem.cpp" />
+    <ClCompile Include="..\Classes\PlayerTankTowerSystem.cpp" />
+    <ClCompile Include="..\Classes\RenderSystem.cpp" />
+    <ClCompile Include="..\Classes\ScaleAnimation.cpp" />
+    <ClCompile Include="..\Classes\ScaleAnimationSystem.cpp" />
+    <ClCompile Include="..\Classes\StatusBar.cpp" />
+    <ClCompile Include="..\Classes\Tankz.cpp" />
+    <ClCompile Include="..\Classes\TankzGame.cpp" />
+    <ClCompile Include="..\Classes\Health.cpp" />
+    <ClCompile Include="..\Classes\HealthSystem.cpp" />
+    <ClCompile Include="..\Classes\MovementSystem.cpp" />
+    <ClCompile Include="..\Classes\Physics.cpp" />
+    <ClCompile Include="..\Classes\SoundFile.cpp" />
+    <ClCompile Include="..\Classes\SoundSystem.cpp" />
+    <ClCompile Include="..\Classes\SpatialForm.cpp" />
+    <ClCompile Include="..\Classes\TerrainRenderSystem.cpp" />
+    <ClCompile Include="..\Classes\Tower.cpp" />
+    <ClCompile Include="..\Classes\Transform.cpp" />
+    <ClCompile Include="..\Classes\TrigLUT.cpp" />
+    <ClCompile Include="..\Classes\TurnFactor.cpp" />
+    <ClCompile Include="..\Classes\Utils.cpp" />
+    <ClCompile Include="..\Classes\Velocity.cpp" />
+    <ClCompile Include="..\Classes\Wall.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\Ammo.h" />
+    <ClInclude Include="..\Classes\AmmoRegenerationSystem.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\ArtemisWorld.h" />
+    <ClInclude Include="..\Classes\Bullet.h" />
+    <ClInclude Include="..\Classes\CameraSystem.h" />
+    <ClInclude Include="..\Classes\Constants.h" />
+    <ClInclude Include="..\Classes\Container.h" />
+    <ClInclude Include="..\Classes\Crate.h" />
+    <ClInclude Include="..\Classes\Dirty.h" />
+    <ClInclude Include="..\Classes\DirtySystem.h" />
+    <ClInclude Include="..\Classes\EntityFactory.h" />
+    <ClInclude Include="..\Classes\Explosion.h" />
+    <ClInclude Include="..\Classes\GradientColorUtil.h" />
+    <ClInclude Include="..\Classes\HealthRenderSystem.h" />
+    <ClInclude Include="..\Classes\HudRenderSystem.h" />
+    <ClInclude Include="..\Classes\DPadLayer.h" />
+    <ClInclude Include="..\Classes\ListenerList.h" />
+    <ClInclude Include="..\Classes\MammothTank.h" />
+    <ClInclude Include="..\Classes\JoyStick.h" />
+    <ClInclude Include="..\Classes\MiniMap.h" />
+    <ClInclude Include="..\Classes\PadButton.h" />
+    <ClInclude Include="..\Classes\PadButtonGroup.h" />
+    <ClInclude Include="..\Classes\PhysicsSystem.h" />
+    <ClInclude Include="..\Classes\PlayerEntitySystem.h" />
+    <ClInclude Include="..\Classes\PlayerTankMovementSystem.h" />
+    <ClInclude Include="..\Classes\PlayerTankTowerSystem.h" />
+    <ClInclude Include="..\Classes\RenderSystem.h" />
+    <ClInclude Include="..\Classes\ScaleAnimation.h" />
+    <ClInclude Include="..\Classes\ScaleAnimationSystem.h" />
+    <ClInclude Include="..\Classes\Spatial.h" />
+    <ClInclude Include="..\Classes\StatusBar.h" />
+    <ClInclude Include="..\Classes\Tankz.h" />
+    <ClInclude Include="..\Classes\TankzGame.inl" />
+    <ClInclude Include="..\Classes\TankzGame.h" />
+    <ClInclude Include="..\Classes\Health.h" />
+    <ClInclude Include="..\Classes\HealthSystem.h" />
+    <ClInclude Include="..\Classes\MovementSystem.h" />
+    <ClInclude Include="..\Classes\Physics.h" />
+    <ClInclude Include="..\Classes\SoundFile.h" />
+    <ClInclude Include="..\Classes\SoundSystem.h" />
+    <ClInclude Include="..\Classes\SpatialForm.h" />
+    <ClInclude Include="..\Classes\TerrainRenderSystem.h" />
+    <ClInclude Include="..\Classes\Tower.h" />
+    <ClInclude Include="..\Classes\Transform.h" />
+    <ClInclude Include="..\Classes\TrigLUT.h" />
+    <ClInclude Include="..\Classes\TurnFactor.h" />
+    <ClInclude Include="..\Classes\Utils.h" />
+    <ClInclude Include="..\Classes\Velocity.h" />
+    <ClInclude Include="..\Classes\Wall.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\engine\cocos2d-x-3.0alpha0\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\engine\cocos2d-x-3.0alpha0\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\engine\cocos2d-x-3.0alpha0\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\engine\cocos2d-x-3.0alpha0\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\engine\cocos2d-x-3.0alpha0\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

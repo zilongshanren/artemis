@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils">
+      <UniqueIdentifier>{61e070e0-7c4a-451e-a9ce-813b5ac40645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components">
+      <UniqueIdentifier>{0e916c4a-d0b4-4e3c-9bf8-2915034e9d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems">
+      <UniqueIdentifier>{11a6ae60-1ede-42c1-8279-fbce814f9111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Ammo">
+      <UniqueIdentifier>{aed85f6a-13d5-4137-b247-1c20a7874e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Health">
+      <UniqueIdentifier>{5f8ff1ce-f177-4bf7-97cb-c6003d409f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Physics">
+      <UniqueIdentifier>{536921ba-6671-43d1-9ad6-4df9eb01d657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\SoundFile">
+      <UniqueIdentifier>{f398ed71-73b9-4d67-9c8c-f6992a78f89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\SpatialForm">
+      <UniqueIdentifier>{90cc1ce8-9c13-4800-ba51-0bde7e90eb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Tower">
+      <UniqueIdentifier>{3ac22948-a817-44d4-8402-677559f8b04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Transform">
+      <UniqueIdentifier>{5c8b4ef4-4c2b-4af3-8be2-028030f28097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\TurnFactor">
+      <UniqueIdentifier>{2b682560-13b3-4f85-be33-cbac5aa90375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Velocity">
+      <UniqueIdentifier>{198f4d40-d3af-45fd-a206-48ca84a3657f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx">
+      <UniqueIdentifier>{a22f1381-60e5-4dab-a696-79469968d2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\container">
+      <UniqueIdentifier>{bf696949-e5e4-416e-abad-e4fce7ce2651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\camera">
+      <UniqueIdentifier>{0a8447e2-d7fc-43cc-bc07-f61910267ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\gui">
+      <UniqueIdentifier>{2c9d6b09-e769-45b8-8613-995ae727badf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\gui\d-pad">
+      <UniqueIdentifier>{3c00dcba-2aad-417d-b893-c66c58a6e666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\gui\d-pad\JoyStick">
+      <UniqueIdentifier>{c0442efe-d4a7-4e20-b363-9a1a11bb8163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\gui\d-pad\PadButton">
+      <UniqueIdentifier>{f183cc9b-5958-43ed-9d8b-f8c54d04ee08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\game">
+      <UniqueIdentifier>{dbfc3eb5-7cdb-438a-b57b-c29f01459643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\misc">
+      <UniqueIdentifier>{ed52a235-3774-4cf9-b535-3d7246d93726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx\template">
+      <UniqueIdentifier>{2da962c1-7b90-4b59-8ae3-ef4282141892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\player">
+      <UniqueIdentifier>{f9766b70-2421-47e0-9627-de9c502ff7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\Dirty">
+      <UniqueIdentifier>{6916cb53-b1aa-40d0-a61a-8c2b9b80d393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\dirty">
+      <UniqueIdentifier>{3a0f3882-0e7a-47a3-b65c-9a41c54a958e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering">
+      <UniqueIdentifier>{cbf06b1e-9a42-43d7-af85-732bea40db96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering\spatials">
+      <UniqueIdentifier>{ef885581-95e3-4a2c-80fe-a06ca745bc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering\spatials\MammothTank">
+      <UniqueIdentifier>{0305ce87-a239-4127-9f04-cd085fde63cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering\spatials\Wall">
+      <UniqueIdentifier>{a84acb06-a08c-4ae9-95d1-0a53ae4e8c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering\spatials\Crate">
+      <UniqueIdentifier>{bf7b7562-c6f1-4241-8eec-2804e6dd4df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering\spatials\Bullet">
+      <UniqueIdentifier>{3e9c9f77-54b1-4fab-b4c2-7f000e4da1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\rendering\spatials\Explosion">
+      <UniqueIdentifier>{78f3539e-dbda-42ce-a887-641fac76500f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\systems\physics">
+      <UniqueIdentifier>{27680dc8-f288-4c90-a76c-7e57ac3ac185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\components\ScaleAnimation">
+      <UniqueIdentifier>{a203bab4-7f1e-4cc9-90f4-9d6e21f31e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\artemis-wrapper">
+      <UniqueIdentifier>{980fb588-15bd-4fa3-a031-af10efedf3a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntityFactory.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Constants.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Ammo.cpp">
+      <Filter>Classes\components\Ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Health.cpp">
+      <Filter>Classes\components\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Physics.cpp">
+      <Filter>Classes\components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundFile.cpp">
+      <Filter>Classes\components\SoundFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpatialForm.cpp">
+      <Filter>Classes\components\SpatialForm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tower.cpp">
+      <Filter>Classes\components\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Transform.cpp">
+      <Filter>Classes\components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TurnFactor.cpp">
+      <Filter>Classes\components\TurnFactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Velocity.cpp">
+      <Filter>Classes\components\Velocity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CameraSystem.cpp">
+      <Filter>Classes\systems\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AmmoRegenerationSystem.cpp">
+      <Filter>Classes\systems\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundSystem.cpp">
+      <Filter>Classes\systems\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MovementSystem.cpp">
+      <Filter>Classes\systems\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HealthSystem.cpp">
+      <Filter>Classes\systems\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TankzGame.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicsSystem.cpp">
+      <Filter>Classes\systems\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerTankTowerSystem.cpp">
+      <Filter>Classes\systems\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TrigLUT.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerTankMovementSystem.cpp">
+      <Filter>Classes\systems\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>Classes\systems\rendering\spatials\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Crate.cpp">
+      <Filter>Classes\systems\rendering\spatials\Crate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Explosion.cpp">
+      <Filter>Classes\systems\rendering\spatials\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Wall.cpp">
+      <Filter>Classes\systems\rendering\spatials\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MammothTank.cpp">
+      <Filter>Classes\systems\rendering\spatials\MammothTank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HealthRenderSystem.cpp">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HudRenderSystem.cpp">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RenderSystem.cpp">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TerrainRenderSystem.cpp">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JoyStick.cpp">
+      <Filter>Classes\cocos2dx\gui\d-pad\JoyStick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PadButton.cpp">
+      <Filter>Classes\cocos2dx\gui\d-pad\PadButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PadButtonGroup.cpp">
+      <Filter>Classes\cocos2dx\gui\d-pad\PadButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DPadLayer.cpp">
+      <Filter>Classes\cocos2dx\gui\d-pad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StatusBar.cpp">
+      <Filter>Classes\cocos2dx\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MiniMap.cpp">
+      <Filter>Classes\cocos2dx\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Container.cpp">
+      <Filter>Classes\cocos2dx\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Dirty.cpp">
+      <Filter>Classes\components\Dirty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DirtySystem.cpp">
+      <Filter>Classes\systems\dirty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tankz.cpp">
+      <Filter>Classes\cocos2dx\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerEntitySystem.cpp">
+      <Filter>Classes\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScaleAnimationSystem.cpp">
+      <Filter>Classes\systems\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScaleAnimation.cpp">
+      <Filter>Classes\components\ScaleAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ArtemisWorld.cpp">
+      <Filter>Classes\artemis-wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GradientColorUtil.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityFactory.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constants.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Ammo.h">
+      <Filter>Classes\components\Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Health.h">
+      <Filter>Classes\components\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Physics.h">
+      <Filter>Classes\components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundFile.h">
+      <Filter>Classes\components\SoundFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpatialForm.h">
+      <Filter>Classes\components\SpatialForm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tower.h">
+      <Filter>Classes\components\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Transform.h">
+      <Filter>Classes\components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TurnFactor.h">
+      <Filter>Classes\components\TurnFactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Velocity.h">
+      <Filter>Classes\components\Velocity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CameraSystem.h">
+      <Filter>Classes\systems\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AmmoRegenerationSystem.h">
+      <Filter>Classes\systems\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundSystem.h">
+      <Filter>Classes\systems\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MovementSystem.h">
+      <Filter>Classes\systems\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HealthSystem.h">
+      <Filter>Classes\systems\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TankzGame.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicsSystem.h">
+      <Filter>Classes\systems\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerTankTowerSystem.h">
+      <Filter>Classes\systems\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TrigLUT.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerTankMovementSystem.h">
+      <Filter>Classes\systems\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Spatial.h">
+      <Filter>Classes\systems\rendering\spatials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>Classes\systems\rendering\spatials\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Crate.h">
+      <Filter>Classes\systems\rendering\spatials\Crate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Explosion.h">
+      <Filter>Classes\systems\rendering\spatials\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Wall.h">
+      <Filter>Classes\systems\rendering\spatials\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MammothTank.h">
+      <Filter>Classes\systems\rendering\spatials\MammothTank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HealthRenderSystem.h">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HudRenderSystem.h">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenderSystem.h">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TerrainRenderSystem.h">
+      <Filter>Classes\systems\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Container.h">
+      <Filter>Classes\cocos2dx\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JoyStick.h">
+      <Filter>Classes\cocos2dx\gui\d-pad\JoyStick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PadButton.h">
+      <Filter>Classes\cocos2dx\gui\d-pad\PadButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PadButtonGroup.h">
+      <Filter>Classes\cocos2dx\gui\d-pad\PadButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DPadLayer.h">
+      <Filter>Classes\cocos2dx\gui\d-pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StatusBar.h">
+      <Filter>Classes\cocos2dx\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MiniMap.h">
+      <Filter>Classes\cocos2dx\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ListenerList.h">
+      <Filter>Classes\cocos2dx\template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Dirty.h">
+      <Filter>Classes\components\Dirty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DirtySystem.h">
+      <Filter>Classes\systems\dirty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tankz.h">
+      <Filter>Classes\cocos2dx\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerEntitySystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScaleAnimation.h">
+      <Filter>Classes\components\ScaleAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScaleAnimationSystem.h">
+      <Filter>Classes\systems\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArtemisWorld.h">
+      <Filter>Classes\artemis-wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TankzGame.inl">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GradientColorUtil.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
