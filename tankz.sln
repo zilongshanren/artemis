@@ -25,6 +25,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_demo", "_demo", "{22DA0B36-FF72-456B-BABC-CF5DA31E0B72}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "artemis_tank", "demo\demo_artemis_tank\proj.win32\tank.vcxproj", "{88929838-1C3E-4872-A41F-C405A3C5FFF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4176FD4-47A1-4007-98A6-627C9B915B7D} = {C4176FD4-47A1-4007-98A6-627C9B915B7D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
