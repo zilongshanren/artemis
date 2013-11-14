@@ -2,10 +2,10 @@
 #define __CONSTANTS_H__
 
 // artemis
-#include "include\ComponentType.h"
+#include "ComponentType.h"
 
 // cocos2dx
-#include "cocoa\CCGeometry.h"
+#include "cocos2d.h"
 
 namespace Constants
 {

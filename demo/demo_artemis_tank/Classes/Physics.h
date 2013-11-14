@@ -2,10 +2,10 @@
 #define __PHYSCIS_H__
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 // cocos2dx
-#include "physics\CCPhysicsBody.h"
+#include "cocos2d.h"
 
 // √˚≥∆£∫ŒÔ¿Ì 
 class Physics : public artemis::Component 

@@ -170,6 +170,13 @@
 		290EBD23183520B200336719 /* TagManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290EBD06183520B200336719 /* TagManager.cpp */; };
 		290EBD24183520B200336719 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290EBD07183520B200336719 /* World.cpp */; };
 		290EBD25183520B200336719 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 290EBD07183520B200336719 /* World.cpp */; };
+		290EBD261835274300336719 /* libbox2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB2F18351EED00336719 /* libbox2d iOS.a */; };
+		290EBD271835275000336719 /* libchipmunk iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB2D18351EED00336719 /* libchipmunk iOS.a */; };
+		290EBD281835275000336719 /* libcocos2dx iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB2918351EED00336719 /* libcocos2dx iOS.a */; };
+		290EBD291835275000336719 /* libcocos2dx-extensions iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB2B18351EED00336719 /* libcocos2dx-extensions iOS.a */; };
+		290EBD2A1835275000336719 /* libCocosDenshion iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB3118351EED00336719 /* libCocosDenshion iOS.a */; };
+		290EBD2B1835275000336719 /* libjsbindings iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB3318351EED00336719 /* libjsbindings iOS.a */; };
+		290EBD2C1835275000336719 /* libluabindings iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290EBB3518351EED00336719 /* libluabindings iOS.a */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -512,6 +519,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290EBD271835275000336719 /* libchipmunk iOS.a in Frameworks */,
+				290EBD281835275000336719 /* libcocos2dx iOS.a in Frameworks */,
+				290EBD291835275000336719 /* libcocos2dx-extensions iOS.a in Frameworks */,
+				290EBD2A1835275000336719 /* libCocosDenshion iOS.a in Frameworks */,
+				290EBD2B1835275000336719 /* libjsbindings iOS.a in Frameworks */,
+				290EBD2C1835275000336719 /* libluabindings iOS.a in Frameworks */,
+				290EBD261835274300336719 /* libbox2d iOS.a in Frameworks */,
 				1ACB3244164770DE00914215 /* libcurl.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,

@@ -2,11 +2,11 @@
 #define __MAMMOTH_TANK_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\ComponentType.h"
+#include "ComponentMapper.h"
+#include "ComponentType.h"
 
 // cocos2dx
-#include "ccTypes.h"
+#include "cocos2d.h"
 
 // game
 #include "Spatial.h"

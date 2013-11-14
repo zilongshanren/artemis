@@ -2,7 +2,7 @@
 #define __INPUT_LAYER_H__
 
 // cocos2dx
-#include "layers_scenes_transitions_nodes\CCLayer.h"
+#include "cocos2d.h"
 
 // game
 #include "JoyStick.h"

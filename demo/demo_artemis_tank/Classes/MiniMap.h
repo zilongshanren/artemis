@@ -1,7 +1,7 @@
 #ifndef __MINI_MAP_H__
 #define __MINI_MAP_H__
 
-#include "CCSprite.h"
+#include "cocos2d.h"
 // artemis
 #include "ComponentMapper.h"
 #include "Entity.h"

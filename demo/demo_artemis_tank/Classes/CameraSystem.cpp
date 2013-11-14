@@ -1,11 +1,11 @@
 #include "CameraSystem.h"
 
 // artemis
-#include "include/Entity.h"
-#include "include/EntitySystem.h"
-#include "include/SystemManager.h"
-#include "include/TagManager.h"
-#include "include/World.h"
+#include "Entity.h"
+#include "EntitySystem.h"
+#include "SystemManager.h"
+#include "TagManager.h"
+#include "World.h"
 
 // cocos2dx
 #include "cocos2d.h"

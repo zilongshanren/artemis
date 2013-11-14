@@ -5,7 +5,7 @@
 #include <string>
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 enum class SoundType
 {

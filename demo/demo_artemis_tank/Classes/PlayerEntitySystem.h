@@ -2,7 +2,7 @@
 #define __PLAYER_ENTITY_SYSTEM_H__
 
 // artemis
-#include "include\EntitySystem.h"
+#include "EntitySystem.h"
 
 class PlayerEntitySystem : public artemis::EntitySystem
 {

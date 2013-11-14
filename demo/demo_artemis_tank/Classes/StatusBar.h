@@ -2,7 +2,7 @@
 #define __STATUS_BAR_H__
 
 // cocos2dx
-#include "base_nodes\CCNode.h"
+#include "cocos2d.h"
 NS_CC_BEGIN
 class LabelBMFont;
 class ProgressTimer;

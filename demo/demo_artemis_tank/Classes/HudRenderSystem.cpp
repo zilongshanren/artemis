@@ -1,18 +1,14 @@
 #include "HudRenderSystem.h"
 
 // artemis
-#include "include/Entity.h"
-#include "include/EntitySystem.h"
-#include "include/SystemManager.h"
-#include "include/TagManager.h"
-#include "include/World.h"
+#include "Entity.h"
+#include "EntitySystem.h"
+#include "SystemManager.h"
+#include "TagManager.h"
+#include "World.h"
 
 // cocos2dx
-#include "ccTypes.h"
-#include "draw_nodes/CCDrawNode.h"
-#include "label_nodes/CCLabelBMFont.h"
-#include "layers_scenes_transitions_nodes/CCLayer.h"
-#include "sprite_nodes/CCSprite.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
 // game

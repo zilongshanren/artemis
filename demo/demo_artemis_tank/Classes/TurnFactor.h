@@ -2,7 +2,7 @@
 #define __TURN_FACTOR_H__
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 // Ãû³Æ£º£¿£¿£¿
 class TurnFactor : public artemis::Component

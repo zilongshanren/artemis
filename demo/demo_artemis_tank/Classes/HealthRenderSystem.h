@@ -2,11 +2,11 @@
 #define __HEALTH_RENDER_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\EntityProcessingSystem.h"
+#include "ComponentMapper.h"
+#include "EntityProcessingSystem.h"
 
 // cocos2dx
-#include "ccTypes.h"
+#include "cocos2d.h"
 NS_CC_BEGIN
 class Dictionary;
 NS_CC_END

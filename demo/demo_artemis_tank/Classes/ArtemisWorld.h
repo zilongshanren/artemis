@@ -6,7 +6,7 @@
 #include "World.h"
 
 // cocos2dx
-#include "CCComponent.h"
+#include "cocos2d.h"
 
 // game
 class CameraSystem;

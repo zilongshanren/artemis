@@ -2,8 +2,8 @@
 #define __HEALTH_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\EntityProcessingSystem.h"
+#include "ComponentMapper.h"
+#include "EntityProcessingSystem.h"
 
 // game
 #include "Health.h"

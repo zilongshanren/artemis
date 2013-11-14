@@ -1,13 +1,13 @@
 #include "Crate.h"
 
 // artemis
-#include "include\ComponentTypeManager.h"
-#include "include\Entity.h"
+#include "ComponentTypeManager.h"
+#include "Entity.h"
 
 // game
 #include "Constants.h"
 #include "Physics.h"
-#include "sprite_nodes\CCSprite.h"
+#include "cocos2d.h"
 
 Crate::Crate( artemis::World* world, artemis::Entity* owner )
 	: Spatial(world, owner)

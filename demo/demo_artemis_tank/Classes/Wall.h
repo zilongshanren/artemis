@@ -2,10 +2,10 @@
 #define __WALL_H__
 
 // artemis
-#include "include\ComponentType.h"
+#include "ComponentType.h"
 
 // cocos2dx
-#include "sprite_nodes\CCSprite.h"
+#include "cocos2d.h"
 
 // game
 #include "Spatial.h"

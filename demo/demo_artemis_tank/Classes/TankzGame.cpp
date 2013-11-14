@@ -2,11 +2,11 @@
 #include "TankzGame.inl"
 
 // artemis
-#include "include/Component.h"
-#include "include/ComponentMapper.h"
-#include "include/Entity.h"
-#include "include/EntityProcessingSystem.h"
-#include "include/SystemManager.h"
+#include "Component.h"
+#include "ComponentMapper.h"
+#include "Entity.h"
+#include "EntityProcessingSystem.h"
+#include "SystemManager.h"
 
 // cocos2dx
 #include "cocos2d.h"

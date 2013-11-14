@@ -1,14 +1,11 @@
 #include "PhysicsSystem.h"
 
 // artemis
-#include "include/Entity.h"
+#include "Entity.h"
 using namespace artemis;
 
 // cocos2dx
-#include "physics/CCPhysicsBody.h"
-#include "physics/CCPhysicsShape.h"
-#include "physics\CCPhysicsWorld.h"
-#include "layers_scenes_transitions_nodes/CCScene.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
 // game

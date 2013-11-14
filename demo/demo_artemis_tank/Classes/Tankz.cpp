@@ -1,10 +1,7 @@
 #include "Tankz.h"
 
 // cocos2dx
-#include "actions\CCActionInstant.h"
-#include "actions\CCActionInterval.h"
-#include "misc_nodes\CCClippingNode.h"
-#include "draw_nodes\CCDrawNode.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
 Tankz::Tankz()

@@ -5,10 +5,7 @@
 #include <stdlib.h>
 
 // cocos2dx
-#include "menu_nodes\CCMenuItem.h"
-#include "sprite_nodes\CCSprite.h"
-#include "textures\CCTexture2D.h"
-#include "textures\CCTextureCache.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
 // game

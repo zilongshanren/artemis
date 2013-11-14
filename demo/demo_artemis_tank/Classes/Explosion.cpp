@@ -1,12 +1,12 @@
 #include "Explosion.h"
 
 // artemis
-#include "include/Component.h"
-#include "include/Entity.h"
-#include "include/World.h"
+#include "Component.h"
+#include "Entity.h"
+#include "World.h"
 
 // cocos2dx
-#include "draw_nodes/CCDrawNode.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
 // game

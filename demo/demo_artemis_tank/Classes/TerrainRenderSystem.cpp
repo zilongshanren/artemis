@@ -2,13 +2,13 @@
 
 
 // artemis
-#include "include/Entity.h"
-#include "include/EntitySystem.h"
-#include "include/SystemManager.h"
-#include "include/World.h"
+#include "Entity.h"
+#include "EntitySystem.h"
+#include "SystemManager.h"
+#include "World.h"
 
 // cocos2dx
-#include "textures/CCTextureCache.h"
+#include "cocos2d.h"
 
 // game
 #include "CameraSystem.h"

@@ -2,11 +2,11 @@
 #define __TERRAIN_RENDER_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\EntitySystem.h"
+#include "ComponentMapper.h"
+#include "EntitySystem.h"
 
 // cocos2dx
-#include "tilemap_parallax_nodes\CCTMXTiledMap.h"
+#include "cocos2d.h"
 
 // game
 class CameraSystem;

@@ -5,7 +5,7 @@
 #include <vector>
 
 // cocos2dx
-#include "CCLayer.h"
+#include "cocos2d.h"
 
 NS_CC_BEGIN
 class Touch;

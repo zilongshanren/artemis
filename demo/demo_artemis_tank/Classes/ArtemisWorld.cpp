@@ -1,10 +1,10 @@
 #include "ArtemisWorld.h"
 
 // artemis
-#include "include\ComponentTypeManager.h"
-#include "include\EntityManager.h"
-#include "include\SystemManager.h"
-#include "include\World.h"
+#include "ComponentTypeManager.h"
+#include "EntityManager.h"
+#include "SystemManager.h"
+#include "World.h"
 using namespace artemis;
 
 // cocos2dx

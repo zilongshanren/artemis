@@ -1,7 +1,7 @@
 #include "Constants.h"
 
 // artemis
-#include "include\ComponentTypeManager.h"
+#include "ComponentTypeManager.h"
 
 // game
 #include "Ammo.h"

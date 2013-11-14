@@ -2,11 +2,11 @@
 #define __RENDER_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\EntityProcessingSystem.h"
+#include "ComponentMapper.h"
+#include "EntityProcessingSystem.h"
 
 // cococ2dx
-#include "draw_nodes\CCDrawNode.h"
+#include "cocos2d.h"
 
 // game
 #include "CameraSystem.h"

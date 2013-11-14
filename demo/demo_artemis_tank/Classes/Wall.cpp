@@ -1,8 +1,8 @@
 #include "Wall.h"
 
 // artemis
-#include "include\ComponentTypeManager.h"
-#include "include\Entity.h"
+#include "ComponentTypeManager.h"
+#include "Entity.h"
 
 // game
 #include "Constants.h"

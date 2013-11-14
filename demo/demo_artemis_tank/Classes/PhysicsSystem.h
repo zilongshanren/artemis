@@ -2,11 +2,11 @@
 #define __PHYSICS_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\DelayedEntitySystem.h"
+#include "ComponentMapper.h"
+#include "DelayedEntitySystem.h"
 
 // cocos2dx
-#include "physics\CCPhysicsContact.h"
+#include "cocos2d.h"
 NS_CC_BEGIN
 class Scene;
 class PhysicsWorld;

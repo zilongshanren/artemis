@@ -2,7 +2,7 @@
 #define __TANKZ_H__
 
 // cocos2dx
-#include "sprite_nodes\CCSprite.h"
+#include "cocos2d.h"
 
 class FrontTrack;
 class Tankz : public cocos2d::Sprite

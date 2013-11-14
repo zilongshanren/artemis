@@ -2,8 +2,8 @@
 #define __PLAYER_TANK_MOVEMENT_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\EntitySystem.h"
+#include "ComponentMapper.h"
+#include "EntitySystem.h"
 
 // game
 #include "Ammo.h"

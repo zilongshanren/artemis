@@ -1,9 +1,9 @@
 #include "MammothTank.h"
 
 // artemis
-#include "include/Component.h"
-#include "include/Entity.h"
-#include "include/World.h"
+#include "Component.h"
+#include "Entity.h"
+#include "World.h"
 
 // cocos2dx
 USING_NS_CC;

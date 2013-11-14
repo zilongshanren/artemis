@@ -1,11 +1,9 @@
 #include "MiniMap.h"
 
 // cocos2dx
-#include "cocoa\CCGeometry.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
-// cocos2dx
-#include "draw_nodes/CCDrawNode.h"
 
 // game
 #include "CameraSystem.h"

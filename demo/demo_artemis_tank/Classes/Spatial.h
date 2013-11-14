@@ -2,8 +2,7 @@
 #define __SPATIAL_H__
 
 // cocos2dx
-#include "CCNode.h"
-#include "CCDrawNode.h"
+#include "cocos2d.h"
 
 namespace artemis
 {

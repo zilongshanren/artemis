@@ -1,16 +1,12 @@
 #include "HealthRenderSystem.h"
 
 // artemis
-#include "include/Entity.h"
-#include "include/World.h"
-#include "include/SystemManager.h"
+#include "Entity.h"
+#include "World.h"
+#include "SystemManager.h"
 
 // cocos2dx
-#include "cocoa/CCDictionary.h"
-#include "cocoa/CCInteger.h"
-#include "label_nodes/CCLabelAtlas.h"
-#include "misc_nodes/CCProgressTimer.h"
-#include "sprite_nodes/CCSprite.h"
+#include "cocos2d.h"
 USING_NS_CC;
 
 // game

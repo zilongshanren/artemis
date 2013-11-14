@@ -5,7 +5,7 @@
 #include <string>
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 // Ãû³Æ£º¿Õ¼äĞÎÌ¬£¿
 class SpatialForm : public artemis::Component

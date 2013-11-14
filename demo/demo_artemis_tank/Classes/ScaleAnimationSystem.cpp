@@ -1,7 +1,7 @@
 #include "ScaleAnimationSystem.h"
 
 // artemis
-#include "include\Entity.h"
+#include "Entity.h"
 
 ScaleAnimationSystem::ScaleAnimationSystem()
 {

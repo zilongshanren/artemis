@@ -2,8 +2,8 @@
 #define __AMMO_REGENERATION_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\DelayedEntitySystem.h"
+#include "ComponentMapper.h"
+#include "DelayedEntitySystem.h"
 
 // game
 #include "Ammo.h"

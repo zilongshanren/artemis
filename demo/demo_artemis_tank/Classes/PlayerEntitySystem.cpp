@@ -1,8 +1,8 @@
 #include "PlayerEntitySystem.h"
 
 // artemis
-#include "include/Entity.h"
-#include "include/World.h"
+#include "Entity.h"
+#include "World.h"
 
 // game
 #include "Constants.h"

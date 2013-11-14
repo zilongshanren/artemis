@@ -4,8 +4,8 @@
 #include <stdlib.h>
 
 // artemis
-#include "include\World.h"
-#include "include\Entity.h"
+#include "World.h"
+#include "Entity.h"
 
 // game
 #include "Ammo.h"
