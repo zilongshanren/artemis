@@ -175,7 +175,6 @@ public:
 
             // disable Cleartype
             tNewFont.lfQuality = ANTIALIASED_QUALITY;
-			tNewFont.lfOutPrecision = OUT_PS_ONLY_PRECIS;
 
             // create new font
             _font = CreateFontIndirectA(&tNewFont);

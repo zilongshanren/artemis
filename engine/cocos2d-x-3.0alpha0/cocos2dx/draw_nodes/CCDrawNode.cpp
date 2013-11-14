@@ -260,7 +260,7 @@ void DrawNode::drawDot(const Point &pos, float radius, const Color4F &color)
 
 void DrawNode::drawCircle(const Point &pos, float width, float height, const Color4F &color)
 {
-	// 绘制方法是取半径，所以要乘以0.5 
+	// 
 	width *= 0.5f;
 	height *= 0.5f;
 

@@ -117,7 +117,6 @@ platform/CCEGLViewProtocol.cpp \
 platform/CCFileUtils.cpp \
 platform/CCSAXParser.cpp \
 platform/CCThread.cpp \
-platform/CCResourceInfoCache.cpp \
 platform/third_party/common/atitc/atitc.cpp \
 platform/third_party/common/etc/etc1.cpp \
 platform/third_party/common/s3tc/s3tc.cpp \

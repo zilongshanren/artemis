@@ -275,7 +275,6 @@ void SpriteFrameCache::addSpriteFramesWithFile(const char *pszPlist)
         {
             CCLOG("cocos2d: SpriteFrameCache: Couldn't load texture");
         }
-		dict->release();
     }
 }
 
@@ -352,7 +351,6 @@ void SpriteFrameCache::removeSpriteFramesFromFile(const char* plist)
     {
         _loadedFileNames->erase(ret);
     }
-	dict->release();
 }
 
 void SpriteFrameCache::removeSpriteFramesFromDictionary(Dictionary* dictionary)

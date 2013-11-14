@@ -36,13 +36,9 @@
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="cocos2dx.props" />
-    <Import Project="cocos2d_headers.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="cocos2dx.props" />
-    <Import Project="cocos2d_headers.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
@@ -234,7 +230,6 @@ xcopy /Y /Q "$(ProjectDir)..\platform\third_party\win32\libraries\*.*" "$(OutDir
     <ClCompile Include="..\physics\chipmunk\CCPhysicsWorldInfo.cpp" />
     <ClCompile Include="..\platform\CCEGLViewProtocol.cpp" />
     <ClCompile Include="..\platform\CCFileUtils.cpp" />
-    <ClCompile Include="..\platform\CCResourceInfoCache.cpp" />
     <ClCompile Include="..\platform\CCSAXParser.cpp" />
     <ClCompile Include="..\platform\CCThread.cpp" />
     <ClCompile Include="..\platform\third_party\common\atitc\atitc.cpp" />
@@ -416,7 +411,6 @@ xcopy /Y /Q "$(ProjectDir)..\platform\third_party\win32\libraries\*.*" "$(OutDir
     <ClInclude Include="..\platform\CCImageCommon_cpp.h" />
     <ClInclude Include="..\platform\CCPlatformConfig.h" />
     <ClInclude Include="..\platform\CCPlatformMacros.h" />
-    <ClInclude Include="..\platform\CCResourceInfoCache.h" />
     <ClInclude Include="..\platform\CCSAXParser.h" />
     <ClInclude Include="..\platform\CCThread.h" />
     <ClInclude Include="..\platform\third_party\common\atitc\atitc.h" />

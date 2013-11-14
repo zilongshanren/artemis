@@ -572,9 +572,6 @@
     <ClCompile Include="..\event_dispatcher\CCEventTouch.cpp">
       <Filter>event_dispatcher</Filter>
     </ClCompile>
-    <ClCompile Include="..\platform\CCResourceInfoCache.cpp">
-      <Filter>platform</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\base_nodes\CCAtlasNode.h">
@@ -1157,9 +1154,6 @@
     </ClInclude>
     <ClInclude Include="..\event_dispatcher\CCEventTouch.h">
       <Filter>event_dispatcher</Filter>
-    </ClInclude>
-    <ClInclude Include="..\platform\CCResourceInfoCache.h">
-      <Filter>platform</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -30,7 +30,6 @@ THE SOFTWARE.
 #include "support/tinyxml2/tinyxml2.h"
 #include "support/zip_support/unzip.h"
 #include <stack>
-#include "CCResourceInfoCache.h"
 
 using namespace std;
 
@@ -516,18 +515,6 @@ unsigned char* FileUtils::getFileData(const char* filename, const char* mode, un
         
         CCLOG("%s", msg.c_str());
     }
-	else
-	{
-		string strFileName = filename;
-		string extension = "";
-		int nExPos = strFileName.rfind('.');
-		if (nExPos != string::npos)
-		{
-			extension = strFileName.substr(nExPos);
-		}
-		ResourceInfo info;
-		ResourceInfoCache::getInstance()->cache(strFileName, extension, info);
-	}
     return buffer;
 }
 

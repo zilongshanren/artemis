@@ -138,8 +138,11 @@ void ScriptEngineManager::removeScriptEngine(void)
 
 ScriptEngineManager* ScriptEngineManager::getInstance()
 {
-    static ScriptEngineManager instance;
-    return &instance;
+    if (!s_pSharedScriptEngineManager)
+    {
+        s_pSharedScriptEngineManager = new ScriptEngineManager();
+    }
+    return s_pSharedScriptEngineManager;
 }
 
 void ScriptEngineManager::destroyInstance()

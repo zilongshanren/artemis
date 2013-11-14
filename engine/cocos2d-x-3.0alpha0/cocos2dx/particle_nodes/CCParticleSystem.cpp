@@ -599,7 +599,6 @@ bool ParticleSystem::isFull()
 // ParticleSystem - MainLoop
 void ParticleSystem::update(float dt)
 {
-	Node::update(dt);
     CC_PROFILER_START_CATEGORY(kProfilerCategoryParticles , "CCParticleSystem - update");
 
     if (_isActive && _emissionRate)

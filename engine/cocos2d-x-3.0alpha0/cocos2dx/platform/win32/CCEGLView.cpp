@@ -314,11 +314,6 @@ void EGLViewEventHandler::OnGLFWMouseCallBack(GLFWwindow* window, int button, in
                 int id = 0;
                 eglView->handleTouchesEnd(1, &id, &s_mouseX, &s_mouseY);
             }
-			else
-			{
-				int id = 0;
-				eglView->handleTouchesCancel(1, &id, &s_mouseX, &s_mouseY);
-			}
         }
     }
 }
@@ -405,14 +400,8 @@ bool EGLView::init(const char* viewName, float width, float height, float frameZ
     
     glfwWindowHint(GLFW_RESIZABLE,GL_FALSE);
     _mainWindow = glfwCreateWindow(_screenSize.width * _frameZoomFactor, _screenSize.height * _frameZoomFactor, _viewName, nullptr, nullptr);
-   
-	int w=0, h=0;
-	auto mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
-	glfwGetWindowPos(_mainWindow, &w, &h);
-	glfwSetWindowPos(_mainWindow, (mode->width-width)/2, h);
+    glfwMakeContextCurrent(_mainWindow);
     
-	glfwMakeContextCurrent(_mainWindow);
-
     glfwGetFramebufferSize(_mainWindow, &_frameBufferSize[0], &_frameBufferSize[1]);
     glfwSetMouseButtonCallback(_mainWindow,EGLViewEventHandler::OnGLFWMouseCallBack);
     glfwSetCursorPosCallback(_mainWindow,EGLViewEventHandler::OnGLFWMouseMoveCallBack);
