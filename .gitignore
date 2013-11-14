@@ -19,6 +19,7 @@
 *.xcscheme
 *.xcworkspacedata
 *.xcuserstate
+*.xcuserdata
 xcschememanagement.plist
 build/
 .DS_Store
@@ -26,3 +27,4 @@ build/
 xcuserdata/
 DerivedData/
 *.xcuserstate
+demo/demo_artemis_tank/proj.ios_mac/HelloCpp.xcodeproj/project.xcworkspace/xcuserdata/guanghui.xcuserdatad/UserInterfaceState.xcuserstate
