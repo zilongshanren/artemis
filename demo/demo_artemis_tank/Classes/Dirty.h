@@ -2,7 +2,7 @@
 #define __DIRTY_H__
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 class Dirty : public artemis::Component
 {

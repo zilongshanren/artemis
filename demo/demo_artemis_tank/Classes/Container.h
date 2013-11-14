@@ -5,7 +5,7 @@
 #include <vector>
 
 // cocos2dx
-#include "layers_scenes_transitions_nodes\CCLayer.h"
+#include "CCLayer.h"
 
 // template
 #include "ListenerList.h"

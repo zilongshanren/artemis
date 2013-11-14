@@ -2,7 +2,7 @@
 #define __CRATE_H__
 
 // artemis
-#include "include\ComponentType.h"
+#include "ComponentType.h"
 
 // cocos2dx
 #include "ccTypes.h"

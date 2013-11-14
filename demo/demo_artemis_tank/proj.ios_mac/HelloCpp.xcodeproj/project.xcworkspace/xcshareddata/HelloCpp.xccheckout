@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B32EDC5-216A-4E8C-9FF3-4286BAB276A2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloCpp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3E69F1EE-2CB7-4B7B-8C48-36269339C44B</key>
+		<string>ssh://github.com/andyque/artemis.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demo/demo_artemis_tank/proj.ios_mac/HelloCpp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3E69F1EE-2CB7-4B7B-8C48-36269339C44B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/andyque/artemis.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3E69F1EE-2CB7-4B7B-8C48-36269339C44B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3E69F1EE-2CB7-4B7B-8C48-36269339C44B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>artemis</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -2,11 +2,11 @@
 #define __CAMERA_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\EntitySystem.h"
+#include "ComponentMapper.h"
+#include "EntitySystem.h"
 
 // cocos2dx
-#include "layers_scenes_transitions_nodes\CCLayer.h"
+#include "CCLayer.h"
 NS_CC_BEGIN
 class Node;
 NS_CC_END

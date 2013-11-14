@@ -2,8 +2,8 @@
 #define __EXPLOSION_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\ComponentType.h"
+#include "ComponentMapper.h"
+#include "ComponentType.h"
 
 // cocos2dx
 #include "ccTypes.h"

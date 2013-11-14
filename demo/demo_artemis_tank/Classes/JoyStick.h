@@ -5,7 +5,8 @@
 #include <vector>
 
 // cocos2dx
-#include "layers_scenes_transitions_nodes/CCLayer.h"
+#include "CCLayer.h"
+
 NS_CC_BEGIN
 class Touch;
 class Event;

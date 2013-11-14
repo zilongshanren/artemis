@@ -2,7 +2,7 @@
 #define __TRANSFORM_H__
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 // Ãû³Æ£º×ª»»
 class Transform : public artemis::Component

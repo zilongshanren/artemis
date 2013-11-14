@@ -2,9 +2,9 @@
 #define __HUD_RENDER_SYSTEM_H__
 
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\Entity.h"
-#include "include\EntitySystem.h"
+#include "ComponentMapper.h"
+#include "Entity.h"
+#include "EntitySystem.h"
 
 // cocos2dx
 #include "ccTypes.h"

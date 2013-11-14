@@ -2,7 +2,7 @@
 #define __PAD_BUTTON_GROUP_H__
 
 // cocos2dx
-#include "menu_nodes\CCMenu.h"
+#include "CCMenu.h"
 
 // template
 #include "ListenerList.h"

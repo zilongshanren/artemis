@@ -1,11 +1,11 @@
-#include "sprite_nodes\CCSprite.h"
 #ifndef __MINI_MAP_H__
 #define __MINI_MAP_H__
 
+#include "CCSprite.h"
 // artemis
-#include "include\ComponentMapper.h"
-#include "include\Entity.h"
-#include "include\ImmutableBag.h"
+#include "ComponentMapper.h"
+#include "Entity.h"
+#include "ImmutableBag.h"
 
 // game
 #include "Physics.h"

@@ -1,7 +1,7 @@
 #ifndef __SCALE_ANIMATION_H__
 #define __SCALE_ANIMATION_H__
 
-#include "include\Component.h"
+#include "Component.h"
 class ScaleAnimation : public artemis::Component
 {
 public:

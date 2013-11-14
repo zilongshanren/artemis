@@ -2,7 +2,7 @@
 #define __AMMO_H__
 
 // artemis
-#include "include\Component.h"
+#include "Component.h"
 
 // Ãû³Æ£ºµ¯Ò© 
 class Ammo : public artemis::Component
