@@ -13,9 +13,9 @@
 			buildPhases = (
 			);
 			dependencies = (
-				1A6FB7E71785683A00CDF010 /* PBXTargetDependency */,
+				290EBD3B1835326800336719 /* PBXTargetDependency */,
+				290EBD3D1835326800336719 /* PBXTargetDependency */,
 				A03F31FF178147CB006731B9 /* PBXTargetDependency */,
-				A03F3201178147CB006731B9 /* PBXTargetDependency */,
 				A03F2FC01781458C006731B9 /* PBXTargetDependency */,
 				A03F2E93178141D1006731B9 /* PBXTargetDependency */,
 				A03F2E95178141D1006731B9 /* PBXTargetDependency */,
@@ -30,13 +30,13 @@
 			buildPhases = (
 			);
 			dependencies = (
+				290EBD3F1835327000336719 /* PBXTargetDependency */,
+				290EBD411835327000336719 /* PBXTargetDependency */,
 				A07A4E10178386520073F6A7 /* PBXTargetDependency */,
 				A07A5047178389710073F6A7 /* PBXTargetDependency */,
 				A07A5049178389710073F6A7 /* PBXTargetDependency */,
 				A07A504B178389710073F6A7 /* PBXTargetDependency */,
 				A07A504D178389710073F6A7 /* PBXTargetDependency */,
-				A07A504F178389710073F6A7 /* PBXTargetDependency */,
-				1A6FB4FF17854AD600CDF010 /* PBXTargetDependency */,
 			);
 			name = "build-all-libs iOS";
 			productName = "build-all-libs iOS";
@@ -2207,19 +2207,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A6FB4FE17854AD600CDF010 /* PBXContainerItemProxy */ = {
+		290EBD3A1835326800336719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A119716178526AA00D62A44;
-			remoteInfo = "luabindings iOS";
+			remoteGlobalIDString = A03F31E81781479B006731B9;
+			remoteInfo = "jsbindings Mac";
 		};
-		1A6FB7E61785683A00CDF010 /* PBXContainerItemProxy */ = {
+		290EBD3C1835326800336719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1A6FB50417854BC200CDF010;
 			remoteInfo = "luabindings Mac";
+		};
+		290EBD3E1835327000336719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4FB5178387750073F6A7;
+			remoteInfo = "jsbindings iOS";
+		};
+		290EBD401835327000336719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A119716178526AA00D62A44;
+			remoteInfo = "luabindings iOS";
 		};
 		A03F2E92178141D1006731B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2256,13 +2270,6 @@
 			remoteGlobalIDString = A03F2FC117814595006731B9;
 			remoteInfo = "cocos2dx-extensions";
 		};
-		A03F3200178147CB006731B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A03F31E81781479B006731B9;
-			remoteInfo = jsbindings;
-		};
 		A07A4E0F178386520073F6A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
@@ -2297,13 +2304,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = A07A4F9F178387730073F6A7;
 			remoteInfo = "CocosDenshion iOS";
-		};
-		A07A504E178389710073F6A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A07A4FB5178387750073F6A7;
-			remoteInfo = "jsbindings iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -8864,15 +8864,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A6FB4FF17854AD600CDF010 /* PBXTargetDependency */ = {
+		290EBD3B1835326800336719 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A119716178526AA00D62A44 /* luabindings iOS */;
-			targetProxy = 1A6FB4FE17854AD600CDF010 /* PBXContainerItemProxy */;
+			target = A03F31E81781479B006731B9 /* jsbindings Mac */;
+			targetProxy = 290EBD3A1835326800336719 /* PBXContainerItemProxy */;
 		};
-		1A6FB7E71785683A00CDF010 /* PBXTargetDependency */ = {
+		290EBD3D1835326800336719 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1A6FB50417854BC200CDF010 /* luabindings Mac */;
-			targetProxy = 1A6FB7E61785683A00CDF010 /* PBXContainerItemProxy */;
+			targetProxy = 290EBD3C1835326800336719 /* PBXContainerItemProxy */;
+		};
+		290EBD3F1835327000336719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07A4FB5178387750073F6A7 /* jsbindings iOS */;
+			targetProxy = 290EBD3E1835327000336719 /* PBXContainerItemProxy */;
+		};
+		290EBD411835327000336719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A119716178526AA00D62A44 /* luabindings iOS */;
+			targetProxy = 290EBD401835327000336719 /* PBXContainerItemProxy */;
 		};
 		A03F2E93178141D1006731B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -8899,11 +8909,6 @@
 			target = A03F2FC117814595006731B9 /* cocos2dx-extensions Mac */;
 			targetProxy = A03F31FE178147CB006731B9 /* PBXContainerItemProxy */;
 		};
-		A03F3201178147CB006731B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A03F31E81781479B006731B9 /* jsbindings Mac */;
-			targetProxy = A03F3200178147CB006731B9 /* PBXContainerItemProxy */;
-		};
 		A07A4E10178386520073F6A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A07A4C241783777C0073F6A7 /* cocos2dx iOS */;
@@ -8928,11 +8933,6 @@
 			isa = PBXTargetDependency;
 			target = A07A4F9F178387730073F6A7 /* CocosDenshion iOS */;
 			targetProxy = A07A504C178389710073F6A7 /* PBXContainerItemProxy */;
-		};
-		A07A504F178389710073F6A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A07A4FB5178387750073F6A7 /* jsbindings iOS */;
-			targetProxy = A07A504E178389710073F6A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
